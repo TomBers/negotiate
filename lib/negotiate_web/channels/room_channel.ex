@@ -6,7 +6,7 @@ defmodule  NegotiateWeb.RoomChannel do
   def join(name, _auth, socket) do
     send(self, :after_join)
     {int_id, _} = Integer.parse(socket.assigns[:current_user_id])
-    {:ok, %{current_user_id: socket.assigns[:current_user_id], items: [int_id, 2,3,4,5]} , socket}
+    {:ok, %{current_user_id: socket.assigns[:current_user_id], items: [int_id]} , socket}
   end
 
   def handle_info(:after_join, socket) do
