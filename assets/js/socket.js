@@ -14,7 +14,7 @@ channel.join()
   .receive("ok", resp => {
         console.log("Joined successfully", resp);
         user = resp.current_user_id;
-        document.getElementById("userGreeting").innerHTML = "Welcome player " + user;
+        document.getElementById("userGreeting").innerHTML = "Welcome " + resp.current_user_name;
         myItems = resp.items;
         setUserItems(myItems);
    })
