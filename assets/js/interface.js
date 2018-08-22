@@ -7,8 +7,8 @@ export function renderMsg(messageObject) {
 
 export function setUserItems(items) {
     document.getElementById("item").innerHTML = ""
-    items.forEach(function(item) {
-        document.getElementById("item").innerHTML += `<img id="item${item}" draggable="true" ondragstart="window.drag(event)" class="responsive-item" src="/images/${getImageName(item)}">`;
+    items.forEach(function(item, index) {
+        document.getElementById("item").innerHTML += `<img id="item${item}:${index}" draggable="true" ondragstart="window.drag(event)" class="responsive-item" src="/images/${getImageName(item)}">`;
      })
 }
 

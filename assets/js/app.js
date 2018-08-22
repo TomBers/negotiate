@@ -35,6 +35,9 @@ window.drop = function (ev) {
     ev.preventDefault();
     const to = ev.currentTarget.dataset.toId;
     const item_id = ev.dataTransfer.getData("text").replace("item", "");
-    socket.sendItemTo(to, parseInt(item_id, 10));
+    // ID containts item:itemIndex
+    const parts = item_id.split(":");
+
+    socket.sendItemTo(to, parseInt(parts[0], 10), parseInt(parts[1], 10));
 }
 

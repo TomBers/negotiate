@@ -13,6 +13,10 @@
     height: auto;
 }
 
+.responsive-item:hover {
+    border: 1px solid green;
+}
+
 .dropzone {
     margin-top: 25px;
     min-height: 75px;

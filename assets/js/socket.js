@@ -47,8 +47,8 @@ document.querySelector('#inputTxt').addEventListener('keydown', function(event) 
     }
 });
 
-socket.sendItemTo = function (toId, item) {
-    myItems = myItems.filter(e => e !== item);
+socket.sendItemTo = function (toId, item, itemIndex) {
+    myItems.splice(itemIndex, 1);
     setUserItems(myItems);
     channel.push('message:text', {to: toId, item: item});
 }
