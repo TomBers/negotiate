@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7b888cc-836b-4e49-a4af-c8519502e6b2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/negotiate_web/channels/room_channel.ex" beforeDir="false" afterPath="$PROJECT_DIR$/lib/negotiate_web/channels/room_channel.ex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/socket.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/socket.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +32,7 @@
           <entry key="ex" value="23" />
           <entry key="exs" value="1" />
           <entry key="gitignore" value="1" />
-          <entry key="js" value="7" />
+          <entry key="js" value="8" />
           <entry key="json" value="2" />
         </counts>
       </usages-collector>
@@ -42,7 +43,7 @@
           <entry key="Elixir Script" value="1" />
           <entry key="Elixir file" value="23" />
           <entry key="JSON" value="2" />
-          <entry key="JavaScript" value="7" />
+          <entry key="JavaScript" value="8" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -53,7 +54,7 @@
           <entry key="ex" value="1951" />
           <entry key="exs" value="21" />
           <entry key="gitignore" value="7" />
-          <entry key="js" value="1996" />
+          <entry key="js" value="2188" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -62,7 +63,7 @@
           <entry key="EEx" value="910" />
           <entry key="Elixir Script" value="21" />
           <entry key="Elixir file" value="1951" />
-          <entry key="JavaScript" value="1996" />
+          <entry key="JavaScript" value="2188" />
           <entry key="PLAIN_TEXT" value="7" />
         </counts>
       </usages-collector>
@@ -74,7 +75,25 @@
         <entry file="file://$PROJECT_DIR$/assets/js/socket.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="284">
-              <caret line="48" column="35" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
+              <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/js/interface.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/js/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="499">
+              <caret line="37" column="10" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -82,17 +101,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/negotiate_web/channels/room_channel.ex">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="77" selection-start-line="8" selection-start-column="77" selection-end-line="8" selection-end-column="77" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+            <state relative-caret-position="119">
+              <caret line="7" column="64" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -111,6 +121,9 @@
       <find>boot</find>
       <find>bootstrap</find>
       <find>presences</find>
+      <find>window</find>
+      <find>renderOnlineUsers</find>
+      <find>sendInputToServer</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -128,13 +141,14 @@
         <option value="$PROJECT_DIR$/lib/negotiate/application.ex" />
         <option value="$PROJECT_DIR$/lib/negotiate/accounts/accounts.ex" />
         <option value="$PROJECT_DIR$/lib/negotiate/edit_presence.ex" />
-        <option value="$PROJECT_DIR$/assets/js/app.js" />
         <option value="$PROJECT_DIR$/lib/negotiate_web/templates/page/index.html.eex" />
         <option value="$PROJECT_DIR$/assets/css/app.css" />
         <option value="$PROJECT_DIR$/lib/negotiate_web/templates/layout/app.html.eex" />
-        <option value="$PROJECT_DIR$/assets/js/socket.js" />
         <option value="$PROJECT_DIR$/lib/negotiate_web/channels/room_channel.ex" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/assets/js/interface.js" />
+        <option value="$PROJECT_DIR$/assets/js/socket.js" />
+        <option value="$PROJECT_DIR$/assets/js/app.js" />
       </list>
     </option>
   </component>
@@ -172,14 +186,7 @@
               <item name="negotiate" type="b2602c69:ProjectViewProjectNode" />
               <item name="negotiate" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="negotiate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="negotiate" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -348,13 +355,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/app.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -376,17 +376,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/socket.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="48" column="35" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/negotiate_web/channels/room_channel.ex">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="77" selection-start-line="8" selection-start-column="77" selection-end-line="8" selection-end-column="77" />
+        <state relative-caret-position="119">
+          <caret line="7" column="64" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="64" />
         </state>
       </provider>
     </entry>
@@ -394,6 +387,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/interface.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/socket.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="37" column="10" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
         </state>
       </provider>
     </entry>

@@ -33,10 +33,8 @@ window.drag = function (ev) {
 
 window.drop = function (ev) {
     ev.preventDefault();
-
     const to = ev.currentTarget.dataset.toId;
     const item_id = ev.dataTransfer.getData("text").replace("item", "");
-
-    window.sendItemTo(to, parseInt(item_id, 10));
+    socket.sendItemTo(to, parseInt(item_id, 10));
 }
 
